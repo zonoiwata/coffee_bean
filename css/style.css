@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&display=swap');
+ 
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #312A26;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, input, label, span, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+/* header area */
+.nav a:hover {
+    color: #c7aa7a;
+}
+
+.nav {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto
+}
+
+.nav h1 {
+    width: 50%;
+    float: left;
+}
+.nav ul {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* banner area */
+
+.banner {
+    background-image: url('../images/IMAGES/atf-image.jpg');
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    /* border: 2px solid blue; */
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 7.5%;
+}
+
+.banner-text h2 {
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.banner span {
+    color: #4caf50;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.banner a {
+    color: white;
+    background-color: #312A26;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* ads area */
+
+.ads {
+    /* border: 2px solid red; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    margin-top: 5%;
+}
+
+.ads-box {
+    width: 49.5%;
+    float: left;
+    /* border: 2px solid green; */
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+#ads1 .ads-box:nth-child(1) {
+    background-image: url('../images/IMAGES/merchandise1.jpg');
+    margin-right: 1%;
+}
+
+#ads1 .ads-box:nth-child(2) {
+    background-image: url('../images/IMAGES/merchandise2.jpg');
+}
+
+.ads-text {
+    top: 30%;
+    left: 10%;
+    position: relative;
+    /* border: 2px solid blue; */
+    width: 30%;
+}
+
+.ads-text h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.ads-text a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Merchandise area */
+
+.merch {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.div-title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.div-title span {
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.div-title h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.div-title hr {
+    background-color: #c7a17a;
+    width: 10%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch-gallery {
+    overflow: auto;
+}
+
+.merch-item {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+}
+
+.merch-item img {
+    width: 100%;
+}
+
+.merch-item:nth-child(4), .merch-item:nth-child(8) {
+    margin-right: 0%;
+}
+
+.merch-item:nth-child(1),
+.merch-item:nth-child(2),
+.merch-item:nth-child(3),
+.merch-item:nth-child(4) {
+    margin-bottom: 1%;
+}
+
+.merch-item span, .merch-item p {
+    color: #c7a17a;
+}
+
+/* ads big area */
+
+.ads-big {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    margin-top: 5%;
+    background-image: url('../images/IMAGES/banner.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ads-big-text {
+    /* border: 2px solid magenta; */
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .ads-big-text h2,
+.ads-big-text span,
+.ads-big-text a {
+    color: white;
+} */
+
+.ads-big-text h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ads-big-text span {
+    color: #c7a17a;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.ads-big-text a {
+    background-color: white;
+    font-weight: bold;
+    padding:15px 20px;
+    display: inline-block;
+    color: #312A26;
+}
+
+/* ads2 area */
+
+#ads2 .ads-box:nth-child(1),
+#ads2 .ads-box:nth-child(3) {
+    margin-right: 1%;
+}
+
+#ads2 .ads-box:nth-child(3),
+#ads2 .ads-box:nth-child(4) {
+    margin-top: 1%;
+}
+
+#ads2 .ads-box:nth-child(1) {
+    background-image: url('../images/IMAGES/merchandise3.jpg');
+}
+
+#ads2 .ads-box:nth-child(2) {
+    background-image: url('../images/IMAGES/merchandise4.jpg');
+}
+
+#ads2 .ads-box:nth-child(3) {
+    background-image: url('../images/IMAGES/merchandise5.jpg');
+}
+
+#ads2 .ads-box:nth-child(4) {
+    background-image: url('../images/IMAGES/merchandise6.jpg');
+}
+
+#ads2 {
+    margin-bottom: 5%;
+}
+
+/* reservation area */
+
+.reservation {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.res-form-left,
+.res-form-right {
+    /* border: 2px solid magenta; */
+    width: 49.5%;
+    float: left;
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.res-form-left {
+    margin-right: 1%;
+}
+
+.res-form label,
+.res-form input,
+.res-form textarea,
+.res-form select {
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.res-form label {
+    font-weight: bold;
+}
+
+.res-form input,
+.res-form textarea,
+.res-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input.form-inline,
+label.form-inline {
+    display: inline;
+    width: auto;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.send-btn {
+    color: white;
+    background-color: #4caf50;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* footer area */
+
+.footer {
+    background-image: url('../images/IMAGES/footer-img.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+}
+
+.footer-content {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.footer-content > div {
+    /* border: 2px solid greenyellow; */
+    width: 24.25%;
+    float: left;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 1%;
+    }
+
+.footer-content >div:nth-child(4) {
+    margin-right: 0%;
+}
+
+.footer-content h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.opening th,
+.opening td {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.latest-post h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.latest-post p {
+    color: #c7a17a;
+}
+
+.contact .highlight {
+    color: #c7a17a;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.contact p {
+    color: white;
+    font-weight: bold;
+}
+
+.standard-post {
+    margin-top: 15px;
+}
+
+.contact input {
+    padding: 10px;
+}
+
+.contact input[type="submit"] {
+    background-color: #c7a17a;
+}
+
+.location h4 {
+    color: #c7a17a;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.location p {
+    color: white;
+    font-weight: bold;
+}
+
+/* footer2 area */
+
+.footer2 {
+    background-color: black;
+}
+
+.footer2 .social {
+    width: 49.5%;
+    text-align: center;
+}
+
+.footer2 .copyright {
+    margin-right: 0%;
+}
+
+.footer2 h2,
+.footer2 a,
+.footer2 p  {
+    color: white;
+}
+
+.footer2 li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 767px) {
+    /* if the screen size/width is 0-767px, it will apply the styles below */
+    .nav ul {
+        display: none;
+    }
+    .banner-text {
+        width: 50%;
+    }
+    .banner-text h2 {
+        text-shadow: 2px 2px 0px white;
+    }
+    .ads-box {
+        width: 100%;
+    }
+    .ads-text {
+        width: 50%;
+    }
+    #ads1 .ads-box.ads-box:nth-child(1) {
+        margin-bottom: 5%;
+    }
+    .res-form-left,
+    .res-form-right {
+        width: 100%;
+        float: left;
+        background-color: #f2f2f2;
+        padding: 2%;
+        border-radius: 5px;
+    }
+    .footer-content > div {
+        width: 100%;
+        float: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    } 
+    .footer2 .footer-content > div {
+        width: 100%;
+        float: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        text-align: left;
+    }
+
+    .footer2 .footer-content .social li {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        /* float: left;
+        display: flex;
+        position: absolute; */
+    }
+
+    .social .twitter {
+        background-image: url('../images/icon/twitter.png');
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .social .instagram {
+        background-image: url('../images/icon/instagram.png');
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .social .facebook {
+        background-image: url('../images/icon/facebook.png');
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .social .tumble {
+        background-image: url('../images/icon/tumble.png');
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .social .linkedin {
+        background-image: url('../images/icon/linkedin.jpg');
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* if the screen size/width is 768-1,024px, it will apply the styles below */
+    .footer-content > div {
+        width: 49.5%;
+        float: left;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-right: 1%;
+    } 
+    .footer-content >div:nth-child(2),
+    .footer-content >div:nth-child(4) {
+        margin-right: 0%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    /* if the screen size/width is 0-360px, it will apply the styles below */
+    .nav h1 {
+        font-size: 1.5em;
+    }
+    .banner-text h2 {
+        font-size: 4em;
+    }
+}
