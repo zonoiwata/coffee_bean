@@ -503,15 +503,7 @@ label.form-inline {
         margin-bottom: 2.5%;
         text-align: left;
     }
-
-    .footer2 .footer-content .social li {
-        text-indent: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        /* float: left;
-        display: flex;
-        position: absolute; */
-    }
+        
 
     .social .twitter {
         background-image: url('../images/icon/twitter.png');
