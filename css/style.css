@@ -503,8 +503,13 @@ label.form-inline {
         margin-bottom: 2.5%;
         text-align: left;
     }
-        
-
+    
+    .footer2 .footer-content .social li {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
     .social .twitter {
         background-image: url('../images/icon/twitter.png');
         background-size: contain;
